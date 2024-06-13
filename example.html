@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modals example</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="modals.js"></script>
+</head>
+
+<body>
+    <button class="modal-btn" data-target="#target">Open</button>
+    <dialog id="target">
+        <div class="modal-content">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="3"
+                fill="none" class="modal-close">
+                <path d="M18 6l-12 12"></path>
+                <path d="M6 6l12 12"></path>
+            </svg>
+            <p>Content example</p>
+        </div>
+    </dialog>
+
+    <button class="modal-btn" data-target="#target2">Open second</button>
+    <dialog id="target2">
+        <div class="modal-content">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="3"
+                fill="none" class="modal-close">
+                <path d="M18 6l-12 12"></path>
+                <path d="M6 6l12 12"></path>
+            </svg>
+            <p>Second modal</p>
+        </div>
+    </dialog>
+</body>
+
+</html>
